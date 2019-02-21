@@ -55,7 +55,9 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
         },
         p: {
             marginTop: baseFontSize,
-            marginBottom: baseFontSize
+            marginBottom: baseFontSize,
+            color: '#333',
+            lineHeight: 22 
         }
     };
 }
